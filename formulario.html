@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<title>Formulario 1</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estilo1.css" />
+	    
+	</head>
+	<body id="b1">
+
+		<header><h1 align="center">HOJA DE VIDA</h1></header>
+		<br>
+		<div align="center" class="table-responsive">
+		<form  method="post">
+			<table id="tabla1" border="1">
+				<tr>
+					<td colspan="3"><h2 align="center" style="color: white">DATOS PERSONALES</h2> </td>	
+				</tr>
+
+				<tr id="blanco">
+					<td><label>Fotografia:</label></td>
+					<td colspan="2"><input type="file" name="imagen" accept="image/jpeg, image/png"/></td>
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Nombres:</label></td>
+					<td colspan="2"><input type="text" size="46"/></td>
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Apellidos:</label></td>
+					<td colspan="2"> <input type="text" size="46"/></td>
+				</tr>
+
+				<tr id="blanco">
+					<td id="blanco"> Genero           </td>
+					<td width="30"> Fecha Nacimiento </td>
+					<td> Numero id </td>
+				</tr>
+
+				<tr>
+					<td id="blanco"> M<input type="radio" name="genero" value="M">  F<input type="radio" name="genero" value="F"> </td>
+					<td> <input type="date" size="40"> </td>
+					<td> <input type="id"> </td>
+				</tr>
+
+				<tr>
+					<td colspan="3" align="center"><label id="blanco">Lugar de nacimiento:</label></td>
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Pais</label></td>
+					<td><label id="blanco">Departmento</label></td>
+					<td><label id="blanco">Municipio</label></td>
+				</tr>
+
+				<tr>
+					<td> <input type="text"/></td>
+					<td> <input type="text"/></td>
+					<td> <input type="text"/></td>
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Teléfono:</label></td>
+					<td colspan="2"><input type="tel" size="46"/></td>
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Email:</label></td>
+					<td colspan="2"><input type="email" size="46"/></td>
+				</tr>
+				
+				<tr>
+					<td><label id="blanco">Direccion:</label></td>
+					<td colspan="2"> <input type="text" size="46"/></td>
+				</tr>
+
+
+				<tr>
+					<td colspan="3"><h2 align="center" id="blanco">FORMACIÓN ACDÉMICA</h2> </td>	
+				</tr>
+
+				<tr>
+					<td><label id="blanco">Nivel de educación:</label></td>
+					<td colspan="2" id="blanco">
+						Seleccione los logros alcanzados
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" id="blanco">
+						Primaria:<input type="checkbox">  Bachillerato:<input type="checkbox">  Tectnico:<input type="checkbox">  Profecional:<input type="checkbox">
+					</td>
+				</tr>
+
+				<tr id="blanco">
+					<td><label>Nivel de Ingles:</label></td>
+					<td colspan="2"><label>Responda segun su nivel:</label></td>
+				</tr>
+				
+				<tr id="blanco">
+					<td><label>Lo Habla:</label></td>
+					<td colspan="2">
+						<select name="paraSeleccion">
+			    			<option value="opcion1">Regular</option>
+			    			<option value="opcion2">Bien</option>
+			    			<option value="opcion3">Muy bien</option>
+			    			<option value="opcion4">Exelente</option>
+			  			</select>
+					</td>
+				</tr>
+
+				<tr id="blanco">
+					<td><label>Lo Lee:</label></td>
+					<td colspan="2">
+						<select name="paraSeleccion">
+			    			<option value="opcion1">Regular</option>
+			    			<option value="opcion2">Bien</option>
+			    			<option value="opcion3">Muy bien</option>
+			    			<option value="opcion4">Exelente</option>
+			  			</select>
+					</td>
+				</tr>
+
+				<tr id="blanco">
+					<td><label>Lo Escribe:</label></td>
+					<td colspan="2">
+						<select name="paraSeleccion">
+			    			<option value="opcion1">Regular</option>
+			    			<option value="opcion2">Bien</option>
+			    			<option value="opcion3">Muy bien</option>
+			    			<option value="opcion4">Exelente</option>
+			  			</select>
+					</td>
+				</tr>
+
+				<tr id="blanco">
+					<td colspan="3" align="center"> <h3>Observaciones:</h3> </td>
+				</tr>
+
+				<tr>
+					<td colspan="3" align="center"> <textarea rows="5" cols="65"> </textarea> </td>
+				</tr>
+			</table>
+
+			<br>
+			<input type="submit" name="submit_b1" value="Registrar" style="margin-right: 100px">
+			<input type="reset" name="reset" value="cancelar" class="btn btn-outline-info">
+			<br>
+			<hr>
+		</form>
+		</div>
+		<br>
+			<fieldset id="blanco">
+			  <legend>Creditos</legend>
+			  <label > Elavorado por: Daniel Salazar</label>
+			</fieldset>
+
+	</body>
+</htmls>
