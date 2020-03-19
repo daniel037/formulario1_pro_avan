@@ -23,12 +23,12 @@
 
 				<tr>
 					<td><label id="blanco">Nombres:</label></td>
-					<td colspan="2"><input type="text" size="46"/></td>
+					<td colspan="2"><input type="text" size="46" required oninvalid="setCustomValidity('El campo Nombre es obligatorio')" oninput="setCustomValidity('')" /></td>
 				</tr>
 
 				<tr>
 					<td><label id="blanco">Apellidos:</label></td>
-					<td colspan="2"> <input type="text" size="46"/></td>
+					<td colspan="2"> <input type="text" size="46" required oninvalid="setCustomValidity('El campo Apellidos es obligatorio')" oninput="setCustomValidity('')" /></td>
 				</tr>
 
 				<tr id="blanco">
@@ -40,7 +40,7 @@
 				<tr>
 					<td id="blanco"> M<input type="radio" name="genero" value="M">  F<input type="radio" name="genero" value="F"> </td>
 					<td> <input type="date" size="40"> </td>
-					<td> <input type="id"> </td>
+					<td> <input type="id" required oninvalid="setCustomValidity('El campo Id es obligatorio')" oninput="setCustomValidity('')"> </td>
 				</tr>
 
 				<tr>
@@ -54,24 +54,24 @@
 				</tr>
 
 				<tr>
-					<td> <input type="text"/></td>
-					<td> <input type="text"/></td>
-					<td> <input type="text"/></td>
+					<td> <input type="text" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')" /></td>
+					<td> <input type="text" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')" /></td>
+					<td> <input type="text" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')" /></td>
 				</tr>
 
 				<tr>
 					<td><label id="blanco">Teléfono:</label></td>
-					<td colspan="2"><input type="tel" size="46"/></td>
+					<td colspan="2"><input type="tel" size="46" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')"/></td>
 				</tr>
 
 				<tr>
 					<td><label id="blanco">Email:</label></td>
-					<td colspan="2"><input type="email" size="46"/></td>
+					<td colspan="2"><input type="email" size="46" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')"/></td>
 				</tr>
 				
 				<tr>
 					<td><label id="blanco">Direccion:</label></td>
-					<td colspan="2"> <input type="text" size="46"/></td>
+					<td colspan="2"> <input type="text" size="46" required oninvalid="setCustomValidity('Este campo es obligatorio')" oninput="setCustomValidity('')"/></td>
 				</tr>
 
 
